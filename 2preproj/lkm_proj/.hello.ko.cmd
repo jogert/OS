@@ -1,0 +1,1 @@
+cmd_/home/cali/Desktop/lkm_proj/hello.ko := ld -r -m elf_i386 -T /usr/src/linux-headers-3.13.0-63-generic/scripts/module-common.lds --build-id  -o /home/cali/Desktop/lkm_proj/hello.ko /home/cali/Desktop/lkm_proj/hello.o /home/cali/Desktop/lkm_proj/hello.mod.o
