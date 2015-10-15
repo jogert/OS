@@ -1,0 +1,353 @@
+Script started on Wed 14 Oct 2015 11:18:53 PM EDT
+cali@dude-Righteous:~/Desktop/cs3013/4proj$ make
+gcc proj4.c -o proj4 -lpthread -lrt 
+cali@dude-Righteous:~/Desktop/cs3013/4proj$ ls -1d * | ./proj4 
+Bad Files: 0
+Directories: 0
+Special Files: 0
+Regular Files: 10
+Regular File Bytes: 225394
+Text Files: 7
+Text File Bytes: 13860
+Wall: 17 milliseconds
+User: 0 milliseconds
+CPU: 12 milliseconds
+cali@dude-Righteous:~/Desktop/cs3013/4proj$ ls
+Makefile                   over_script.txt  proj4.c   readme.md  serial_script.txt
+multithreading_script.txt  proj4*            proj4.c~  run.sh     test.sh
+cali@dude-Righteous:~/Desktop/cs3013/4proj$ cd 
+cali@dude-Righteous:~$ p4out 
+Bad Files: 0
+Directories: 8
+Special Files: 0
+Regular Files: 0
+Regular File Bytes: 0
+Text Files: 0
+Text File Bytes: 0
+Wall: 2 milliseconds
+User: 0 milliseconds
+CPU: 0 milliseconds
+cali@dude-Righteous:~$ ls
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+cali@dude-Righteous:~$ cd ../..
+cali@dude-Righteous:/$ p4out 
+Bad Files: 0
+Directories: 20
+Special Files: 0
+Regular Files: 4
+Regular File Bytes: 49227159
+Text Files: 0
+Text File Bytes: 0
+Wall: 2 milliseconds
+User: 0 milliseconds
+CPU: 0 milliseconds
+cali@dude-Righteous:/$ ls
+bin   cdrom  etc   initrd.img      lib         media  opt   root  sbin  sys  usr  vmlinuz
+boot  dev    home  initrd.img.old  lost+found  mnt    proc  run   srv   tmp  var  vmlinuz.old
+cali@dude-Righteous:/$ cd dev/
+cali@dude-Righteous:/dev$ p4out 
+File unclassied..
+Bad Files: 0
+Directories: 14
+Special Files: 185
+Regular Files: 1
+Regular File Bytes: 1069543424
+Text Files: 0
+Text File Bytes: 0
+Wall: 3 milliseconds
+User: 0 milliseconds
+CPU: 0 milliseconds
+cali@dude-Righteous:/dev$ cd ../etc/
+cali@dude-Righteous:/etc$ p4out 
+Stat Error: bad file
+Bad Files: 1
+Directories: 126
+Special Files: 0
+Regular Files: 102
+Regular File Bytes: 335192
+Text Files: 95
+Text File Bytes: 201841
+Wall: 279 milliseconds
+User: 0 milliseconds
+CPU: 172 milliseconds
+etccali@dude-Righteous:/etc$ cd[K[Kdes
+cali@dude-Righteous:~/Desktop/cs3013$ cd 4proj/
+cali@dude-Righteous:~/Desktop/cs3013/4proj$ sh test.sh 
+clean
+/bin/rm -f *.o core proj4 
+make
+gcc proj4.c -o proj4 -lpthread -lrt 
+usage
+usage: <read from stdin only>
+ie. ls -1d * | ./proj4
+Number of threads must  15
+Bad Files: 0
+Directories: 0
+Special Files: 0
+Regular Files: 10
+Regular File Bytes: 225394
+Text Files: 7
+Text File Bytes: 33509
+Wall: 49 milliseconds
+User: 0 milliseconds
+CPU: 12 milliseconds
+Bad Files: 0
+Directories: 0
+Special Files: 0
+Regular Files: 10
+Regular File Bytes: 225394
+Text Files: 7
+Text File Bytes: 968
+Wall: 21 milliseconds
+User: 0 milliseconds
+CPU: 4 milliseconds
+Bad Files: 0
+Directories: 0
+Special Files: 0
+Regular Files: 10
+Regular File Bytes: 225394
+Text Files: 7
+Text File Bytes: 968
+Wall: 13 milliseconds
+User: 0 milliseconds
+CPU: 4 milliseconds
+current directory contains
+Makefile		   over_script.txt  proj4.c   readme.md  serial_script.txt
+multithreading_script.txt  proj4	    proj4.c~  run.sh	 test.sh
+cali@dude-Righteous:~/Desktop/cs3013/4proj$ cd
+cali@dude-Righteous:~$ p4test 
+clean
+make: *** No rule to make target `clean'.  Stop.
+Number of threads must  15
+Bad Files: 0
+Directories: 8
+Special Files: 0
+Regular Files: 0
+Regular File Bytes: 0
+Text Files: 0
+Text File Bytes: 0
+Wall: 1 milliseconds
+User: 0 milliseconds
+CPU: 0 milliseconds
+Bad Files: 0
+Directories: 8
+Special Files: 0
+Regular Files: 0
+Regular File Bytes: 0
+Text Files: 0
+Text File Bytes: 0
+Wall: 2 milliseconds
+User: 0 milliseconds
+CPU: 0 milliseconds
+Bad Files: 0
+Directories: 8
+Special Files: 0
+Regular Files: 0
+Regular File Bytes: 0
+Text Files: 0
+Text File Bytes: 0
+Wall: 5 milliseconds
+User: 0 milliseconds
+CPU: 0 milliseconds
+current directory contains
+Desktop  Documents  Downloads  Music  Pictures	Public	Templates  Videos
+cali@dude-Righteous:~$ cd ../..
+cali@dude-Righteous:/$ p4test 
+clean
+make: *** No rule to make target `clean'.  Stop.
+Number of threads must  15
+Bad Files: 0
+Directories: 20
+Special Files: 0
+Regular Files: 4
+Regular File Bytes: 49227159
+Text Files: 0
+Text File Bytes: 0
+Wall: 2 milliseconds
+User: 0 milliseconds
+CPU: 0 milliseconds
+Bad Files: 0
+Directories: 20
+Special Files: 0
+Regular Files: 4
+Regular File Bytes: 49227159
+Text Files: 0
+Text File Bytes: 0
+Wall: 2 milliseconds
+User: 0 milliseconds
+CPU: 0 milliseconds
+Bad Files: 0
+Directories: 20
+Special Files: 0
+Regular Files: 4
+Regular File Bytes: 49227159
+Text Files: 0
+Text File Bytes: 0
+Wall: 4 milliseconds
+User: 0 milliseconds
+CPU: 0 milliseconds
+current directory contains
+bin   cdrom  etc   initrd.img	   lib	       media  opt   root  sbin	sys  usr  vmlinuz
+boot  dev    home  initrd.img.old  lost+found  mnt    proc  run   srv	tmp  var  vmlinuz.old
+cali@dude-Righteous:/$ cd dev/
+cali@dude-Righteous:/dev$ p4test 
+clean
+make: *** No rule to make target `clean'.  Stop.
+Number of threads must  15
+File unclassied..
+Bad Files: 0
+Directories: 14
+Special Files: 185
+Regular Files: 1
+Regular File Bytes: 1069543424
+Text Files: 0
+Text File Bytes: 0
+Wall: 9 milliseconds
+User: 0 milliseconds
+CPU: 4 milliseconds
+File unclassied..
+Bad Files: 0
+Directories: 14
+Special Files: 185
+Regular Files: 1
+Regular File Bytes: 1069543424
+Text Files: 0
+Text File Bytes: 0
+Wall: 23 milliseconds
+User: 0 milliseconds
+CPU: 4 milliseconds
+File unclassied..
+Bad Files: 0
+Directories: 14
+Special Files: 185
+Regular Files: 1
+Regular File Bytes: 1069543424
+Text Files: 0
+Text File Bytes: 0
+Wall: 15 milliseconds
+User: 0 milliseconds
+CPU: 4 milliseconds
+current directory contains
+autofs		 input		     psaux   rtc       tty13  tty32  tty51	ttyS11	ttyS30	   vcsa
+block		 kmsg		     ptmx    rtc0      tty14  tty33  tty52	ttyS12	ttyS31	   vcsa1
+bsg		 log		     pts     sda       tty15  tty34  tty53	ttyS13	ttyS4	   vcsa2
+btrfs-control	 loop0		     ram0    sda1      tty16  tty35  tty54	ttyS14	ttyS5	   vcsa3
+bus		 loop1		     ram1    sda2      tty17  tty36  tty55	ttyS15	ttyS6	   vcsa4
+cdrom		 loop2		     ram10   sda5      tty18  tty37  tty56	ttyS16	ttyS7	   vcsa5
+char		 loop3		     ram11   sg0       tty19  tty38  tty57	ttyS17	ttyS8	   vcsa6
+console		 loop4		     ram12   sg1       tty2   tty39  tty58	ttyS18	ttyS9	   vcsa7
+core		 loop5		     ram13   shm       tty20  tty4   tty59	ttyS19	uhid	   vga_arbiter
+cpu		 loop6		     ram14   snapshot  tty21  tty40  tty6	ttyS2	uinput	   vhci
+cpu_dma_latency  loop7		     ram15   snd       tty22  tty41  tty60	ttyS20	urandom    vhost-net
+cuse		 loop-control	     ram2    sr0       tty23  tty42  tty61	ttyS21	vboxguest  zero
+disk		 mapper		     ram3    stderr    tty24  tty43  tty62	ttyS22	vboxuser
+dri		 mcelog		     ram4    stdin     tty25  tty44  tty63	ttyS23	vcs
+ecryptfs	 mem		     ram5    stdout    tty26  tty45  tty7	ttyS24	vcs1
+fb0		 net		     ram6    tty       tty27  tty46  tty8	ttyS25	vcs2
+fd		 network_latency     ram7    tty0      tty28  tty47  tty9	ttyS26	vcs3
+full		 network_throughput  ram8    tty1      tty29  tty48  ttyprintk	ttyS27	vcs4
+fuse		 null		     ram9    tty10     tty3   tty49  ttyS0	ttyS28	vcs5
+hidraw0		 port		     random  tty11     tty30  tty5   ttyS1	ttyS29	vcs6
+hpet		 ppp		     rfkill  tty12     tty31  tty50  ttyS10	ttyS3	vcs7
+cali@dude-Righteous:/dev$ cd ../etc/
+cali@dude-Righteous:/etc$ p4test 
+clean
+make: *** No rule to make target `clean'.  Stop.
+Number of threads must  15
+Stat Error: bad file
+File name blkid.tab
+Bad Files: 1
+Directories: 126
+Special Files: 0
+Regular Files: 102
+Regular File Bytes: 335192
+Text Files: 88
+Text File Bytes: 98843
+Wall: 214 milliseconds
+User: 28 milliseconds
+CPU: 88 milliseconds
+Stat Error: bad file
+File name blkid.tab
+Bad Files: 1
+Directories: 126
+Special Files: 0
+Regular Files: 102
+Regular File Bytes: 335192
+Text Files: 89
+Text File Bytes: 96690
+Wall: 206 milliseconds
+User: 20 milliseconds
+CPU: 88 milliseconds
+Stat Error: bad file
+File name blkid.tab
+Bad Files: 1
+Directories: 126
+Special Files: 0
+Regular Files: 102
+Regular File Bytes: 335192
+Text Files: 89
+Text File Bytes: 97033
+Wall: 260 milliseconds
+User: 20 milliseconds
+CPU: 104 milliseconds
+current directory contains
+acpi			       fstab.d		  ltrace.conf		   rpc
+adduser.conf		       fuse.conf	  magic			   rsyslog.conf
+alternatives		       gai.conf		  magic.mime		   rsyslog.d
+anacrontab		       gconf		  mailcap		   samba
+apg.conf		       gdb		  mailcap.order		   sane.d
+apm			       ghostscript	  manpath.config	   securetty
+apparmor		       gnome		  mime.types		   security
+apparmor.d		       gnome-app-install  mke2fs.conf		   selinux
+apport			       groff		  modprobe.d		   sensors3.conf
+apt			       group		  modules		   sensors.d
+aptdaemon		       group-		  modules-load.d	   services
+at-spi2			       grub.d		  mtab			   sgml
+avahi			       gshadow		  mtab.fuselock		   shadow
+bash.bashrc		       gshadow-		  mtools.conf		   shadow-
+bash_completion		       gtk-2.0		  nanorc		   shells
+bash_completion.d	       gtk-3.0		  netscsid.conf		   signond.conf
+bindresvport.blacklist	       hdparm.conf	  network		   signon-ui
+blkid.conf		       host.conf	  NetworkManager	   skel
+blkid.tab		       hostname		  networks		   speech-dispatcher
+bluetooth		       hosts		  newt			   ssh
+brlapi.key		       hosts.allow	  nsswitch.conf		   ssl
+brltty			       hosts.deny	  obex-data-server	   subgid
+brltty.conf		       hp		  opt			   subgid-
+ca-certificates		       ifplugd		  os-release		   subuid
+ca-certificates.conf	       iftab		  pam.conf		   subuid-
+ca-certificates.conf.dpkg-old  init		  pam.d			   sudoers
+calendar		       init.d		  papersize		   sudoers.d
+chatscripts		       initramfs-tools	  passwd		   sysctl.conf
+colord.conf		       inputrc		  passwd-		   sysctl.d
+compizconfig		       insserv		  pcmcia		   systemd
+console-setup		       insserv.conf	  perl			   terminfo
+cracklib		       insserv.conf.d	  pki			   thunderbird
+cron.d			       iproute2		  pm			   timezone
+cron.daily		       issue		  pnm2ppa.conf		   ucf.conf
+cron.hourly		       issue.net	  polkit-1		   udev
+cron.monthly		       kbd		  popularity-contest.conf  udisks2
+crontab			       kernel		  ppp			   ufw
+cron.weekly		       kernel-img.conf	  printcap		   updatedb.conf
+cups			       kerneloops.conf	  profile		   update-manager
+cupshelpers		       kernel-pkg.conf	  profile.d		   update-motd.d
+dbus-1			       ldap		  protocols		   update-notifier
+dconf			       ld.so.cache	  pulse			   UPower
+debconf.conf		       ld.so.conf	  python		   upstart-xsessions
+debian_version		       ld.so.conf.d	  python2.7		   usb_modeswitch.conf
+default			       legal		  python3		   usb_modeswitch.d
+deluser.conf		       libaudit.conf	  python3.4		   vim
+depmod.d		       libnl-3		  rc0.d			   vtrgb
+dhcp			       libpaper.d	  rc1.d			   wgetrc
+dictionaries-common	       libreoffice	  rc2.d			   wodim.conf
+dnsmasq.d		       lightdm		  rc3.d			   wpa_supplicant
+doc-base		       lintianrc	  rc4.d			   X11
+dpkg			       locale.alias	  rc5.d			   xdg
+drirc			       localtime	  rc6.d			   xml
+emacs			       logcheck		  rc.local		   xul-ext
+environment		       login.defs	  rcS.d			   zsh_command_not_found
+firefox			       logrotate.conf	  resolvconf
+fonts			       logrotate.d	  resolv.conf
+fstab			       lsb-release	  rmt
+cali@dude-Righteous:/etc$ exit
+Script done on Wed 14 Oct 2015 11:22:57 PM EDT

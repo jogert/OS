@@ -5,3 +5,4 @@
 * 1proj - creation of a shell
 * 2proj - kernel recompilation & intercepting system calls
 * 3proj - threads, mutex, & semaphores (rats in a maze)
+* 4proj - serial architecture vs multithreading pulling (stats from stdin)
